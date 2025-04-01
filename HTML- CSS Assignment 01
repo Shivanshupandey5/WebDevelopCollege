@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konoha - The Hidden Leaf Village</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            font-size: 24px;
+        }
+        nav {
+            text-align: center;
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+        }
+        .post {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        .post h2 {
+            color: #333;
+        }
+        .post img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 10px auto;
+        }
+        .comment-box {
+            margin-top: 30px;
+            padding: 15px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .comment-box textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .comment-box button {
+            background: #333;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Konoha - The Hidden Leaf Village 🍃🔥
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#post">Blog Post</a>
+    </nav>
+    <div class="container">
+        <div class="post" id="about">
+            <h2>🌿 Welcome to Konohagakure - The Village Hidden in the Leaves</h2>
+            <img src="c:\Users\Lenovo\Downloads\Konoha.webp" alt="Konoha">
+            <p>Konohagakure, or the *Hidden Leaf Village*, is one of the Five Great Shinobi Nations in the Naruto world...</p>
+        </div>
+
+        <div class="post" id="post">
+            <h2>🌀 The Founders of Konoha</h2>
+            <img src="c:\Users\Lenovo\Downloads\madara-uchiha-vs-hashirama-senju.jpg" alt="Hashirama and Madara">
+            <p><strong> Hashirama Senju & Madara Uchiha</strong></p>
+            <p>Konohagakure was founded by *Hashirama Senju* and *Madara Uchiha*, two of the most powerful shinobi in history. Hashirama, known as the "God of Shinobi," sought peace and unity among ninja clans, while Madara, a fierce warrior from the Uchiha clan, had a different vision for the village's leadership.</p>
+            <p>Their rivalry shaped the foundation of Konoha, culminating in a legendary battle at the Valley of the End. Despite their differences, their ideals continued to influence the village's future generations, shaping its destiny through war and peace.</p>
+        </div>
+
+        <div class="post">
+            <h2>🐍🐸🐌 The Legendary Sannin of Konoha</h2>
+            <img src="c:\Users\Lenovo\Downloads\sanins.webp" alt="Legendary Sannin">
+            <p><strong> Jiraiya, Tsunade & Orochimaru</strong></p>
+            <p>The *Legendary Sannin* – Jiraiya, Tsunade, and Orochimaru – were the students of the Third Hokage, Hiruzen Sarutobi. Each of them became famous for their unique skills and contributions to the ninja world:</p>
+            <ul>
+                <li><strong>Jiraiya:</strong> A legendary ninja known for his research on ninjutsu and his mastery of Sage Mode. He was the mentor of Naruto Uzumaki and an expert in summoning toads.</li>
+                <li><strong>Tsunade:</strong> The greatest medical-nin in history and the Fifth Hokage of Konoha. She possesses immense strength and pioneered modern medical ninjutsu.</li>
+                <li><strong>Orochimaru:</strong> A genius scientist and master of forbidden jutsu, known for his obsession with immortality and experimentation on humans.</li>
+            </ul>
+            <p>Together, these three shinobi played a crucial role in shaping the destiny of Konoha and the ninja world.</p>
+        </div>
+        
+        <!-- Chat with Us Section Moved Before Comment Box -->
+        <div class="post" id="chat">
+            <h2>Chat with Us</h2>
+            <p>Want to discuss more about Konoha and the Naruto world? Feel free to contact us:</p>
+            <ul>
+                <li><a href="abhyanshupathak@gmail.com">Email: abhyanshupathak@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/abhyanshu-pathak-0982492a9/" target="_blank">linkedin: @abhyanshupathak</a></li>
+                <li><a href="https://www.instagram.com/its_abhyanshu/" target="_blank">Instagram: @its_abhyanshu</a></li>
+            </ul>
+        </div>
+
+        <!-- Comment Box Section -->
+        <div class="comment-box">
+            <h2>💬 Leave a Comment</h2>
+            <textarea placeholder="Share your thoughts on Konoha..."></textarea>
+            <button onclick="alert('Thank you for your comment!')">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
